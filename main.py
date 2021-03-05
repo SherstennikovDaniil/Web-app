@@ -1,6 +1,7 @@
 from collections import namedtuple
-
-from flask import Flask, render_template, redirect, url_for, request
+from sender import send
+from flask import Flask, render_template, redirect, url_for
+from flask import request as r
 
 app = Flask(__name__)
 
@@ -13,9 +14,10 @@ def main():
     return render_template('index.html')
 
 
-@app.route('/add_message', methods=['POST'])
-def add_message():
-    text = request.form['text']
-    tag = request.form['tag']
-    messages.append(Message(text, tag))
+@app.route('/request', methods=['POST'])
+def request():
+    url = r.form['url']
+    amount = r.form['amount']
+    coupon = r.form['coupon']
+    send(url, amount, coupon)
     return redirect(url_for('main'))
