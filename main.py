@@ -23,5 +23,4 @@ def request():
     return redirect(url_for('main'))
 
 if __name__ == "__main__":
-    from waitress import serve
-    serve(app, host="192.168.0.103", port=5000)
+    app.run(host="192.168.0.103", port=5000, debug=True)
