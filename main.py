@@ -2,7 +2,6 @@ from collections import namedtuple
 from sender import send
 from flask import Flask, render_template, redirect, url_for
 from flask import request as r
-import os
 
 app = Flask(__name__)
 
@@ -25,6 +24,4 @@ def request():
 
 if __name__ == "__main__":
     from waitress import serve
-    ip = os.system('hostname -I')
-    print(ip)
-    serve(app, host=str(ip), port=5000)
+    serve(app, host="192.168.0.103", port=5000)
