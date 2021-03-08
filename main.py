@@ -23,4 +23,4 @@ def request():
     return redirect(url_for('main'))
 
 if __name__ == "__main__":
-    app.run(host="192.168.0.103", port=5000, debug=True)
+    app.run(host="192.168.0.103", port=5000)
