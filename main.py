@@ -11,6 +11,11 @@ def main():
     return render_template('index.html')
 
 
+@app.route('/nakrutka', methods=['GET', 'POST'])
+def nakrutka():
+    return render_template('nakrutka.html')
+
+
 @app.route('/request', methods=['POST'])
 def request():
     url = r.form['url']
