@@ -5,9 +5,6 @@ from flask import request as r
 
 app = Flask(__name__)
 
-Message = namedtuple('Message', 'text tag')
-messages = []
-
 
 @app.route('/', methods=['GET'])
 def main():
@@ -21,6 +18,3 @@ def request():
     coupon = r.form['coupon']
     send(url, amount, coupon)
     return redirect(url_for('main'))
-
-if __name__ == "__main__":
-    app.run(host="192.168.0.103", port=5000)
