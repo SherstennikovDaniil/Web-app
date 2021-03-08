@@ -1,9 +1,5 @@
 body {
     background-image: url("../img/back1.png");
-    }
-h1 {
-    border: 32px #2651a2 solid;
-    color: #3549b7;
-    text-align: left;
-    padding: 30px;
+    background-repeat: no-repeat;
+    background-size: 100%;
     }
