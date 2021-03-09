@@ -1,4 +1,3 @@
-from collections import namedtuple
 from sender import send
 from flask import Flask, render_template, redirect, url_for
 from flask import request as r
