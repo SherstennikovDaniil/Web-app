@@ -13,23 +13,75 @@ body {
 .head__text{
     font-size: 100px;
     text-outline: black 10px;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .header > div {
     font-family: "Clickupper";
     color: #ffffff;
     font-size: 30px;
-    text-outline: black 5px;
     padding-top: 150px;
 }
 .header__text{
     font-size: 30px;
     margin-bottom: 40px;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000,
+    0 0 4px #2869f9,
+    0 0 4px #2869f9,
+    0 0 4px #2869f9,
+    0 0 4px #2869f9,
+    0 0 6px #2869f9,
+    0 0 6px #2869f9,
+    0 0 6px #2869f9,
+    0 0 6px #2869f9;
+}
+.header__text2{
+    font-size: 30px;
+    margin-bottom: 52px;
+    margin-left: 30px;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000,
+    0 0 4px #bd0000,
+    0 0 4px #bd0000,
+    0 0 4px #bd0000,
+    0 0 4px #bd0000,
+    0 0 6px #bd0000,
+    0 0 6px #bd0000,
+    0 0 6px #bd0000,
+    0 0 6px #bd0000;
 }
 .button{
     padding: 30px 150px;
     border: 10px;
     border-radius: 30px;
     border:solid black;
-    transition: .3s;
+    transition: .4s;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+}
+
+.footer__text{
+    padding-top: 230px;
+    font-family: "Clickupper";
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
