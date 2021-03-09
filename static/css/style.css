@@ -4,20 +4,32 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
 }
+.head > div {
+    font-family: "Nelda Free";
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+}
+.head__text{
+    font-size: 100px;
+    text-outline: black 10px;
+}
+
 .header > div {
     font-family: "Clickupper";
-    color: white;
-    font-size: 40px;
-    text-align: left;
+    color: #ffffff;
+    font-size: 30px;
     text-outline: black 5px;
-    padding: 400px 0;
+    padding-top: 150px;
 }
 .header__text{
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 40px;
 }
 .button{
     padding: 30px 150px;
     border: 10px;
     border-radius: 30px;
+    border:solid black;
+    transition: .3s;
 }
