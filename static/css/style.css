@@ -111,3 +111,7 @@ body {
     -1px 1px 0 #000,
     1px 1px 0 #000;
 }
+.buy_form > div{
+    background-color: white;
+    max-width: 600px;
+}
