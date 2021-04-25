@@ -1,8 +1,8 @@
 import requests
 import json
 import pyqiwi
-login = '79374187178'
-token = 'c484083069edf24f52220e4aa9cca163'
+login = ''
+token = ''
 
 
 def balance(login, api_access_token):
