@@ -1,3 +1,3 @@
-token = "1609556984:AAFL5DPFkwSYJHumZ4yW79eUtrPoqFatki8"
+token = ""
 
 group_id = -351890575
